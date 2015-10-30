@@ -1,0 +1,26 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AAWidgetSDK">
+
+    <Style TargetType="local:AAWidget" >
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:AAWidget">
+                    <RelativePanel Name="MainLayout"    Margin="40,20" HorizontalAlignment="Left" MinWidth="350" 
+                                       Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}">
+                        <Image Margin="-20,0"  RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignLeftWithPanel="True"  Source="{TemplateBinding PicPath}" Height="30" Width="30" />
+                        <ContentPresenter
+                                Background="{Binding ElementName=MainLayout, Path=Background, Mode=TwoWay}"
+                                x:Name="ContentContainer"
+                                Content="{TemplateBinding Content}"
+                                ContentTemplate="{TemplateBinding ContentTemplate}"
+                                Margin="24,10,24,10"/>
+                    </RelativePanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

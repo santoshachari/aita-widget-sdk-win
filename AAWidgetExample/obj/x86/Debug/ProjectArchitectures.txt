@@ -1,0 +1,2 @@
+E:\aita\AAWidgetExample\AAWidgetExample\AAWidgetExample.csproj;x86
+E:\aita\AAWidgetExample\AAWidgetSDK\AAWidgetSDK.csproj;neutral
