@@ -17,7 +17,7 @@ This control has Content property which allows add any UI elements or controls:
         <aaWidgetSdk:AAWidget Background="White" PicPath="Assistant.png">
             <aaWidgetSdk:AAWidget.Content>
                 <Grid>
-			<!--Your content--!>
+			<!--Your content-->
 		</Grid>
             </aaWidgetSdk:AAWidget.Content>
         </aaWidgetSdk:AAWidget>
