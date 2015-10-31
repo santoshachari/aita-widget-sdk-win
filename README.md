@@ -27,3 +27,8 @@ AAWidgetSDK also contains our model of data - Trip, FlightInfo, Airport and etc.
 
 #How use
 Clone this solution and add reference to AAWidgetSDK to your project
+
+
+#Submission
+
+The simplest way to submit the widget is to make a fork of this repo and then send us a message to support@appintheair.mobi with link to your implementation. Further steps includes design-review and integration of your widget to the production app.
